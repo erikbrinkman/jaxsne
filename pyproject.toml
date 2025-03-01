@@ -28,9 +28,6 @@ dev = [
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
-[tool.setuptools]
-packages = ["jaxsne"]
-
 [tool.mypy]
 mypy_path = "typings"
 strict = true
