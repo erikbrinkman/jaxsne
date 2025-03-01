@@ -1,5 +1,10 @@
 # jaxsne
 
+[![build](https://github.com/erikbrinkman/jaxsne/actions/workflows/python-package.yml/badge.svg)](https://github.com/erikbrinkman/jaxsne/actions/workflows/python-package.yml)
+[![pypi](https://img.shields.io/pypi/v/jaxsne)](https://pypi.org/project/jaxsne/)
+[![docs](https://img.shields.io/badge/api-docs-blue)](https://erikbrinkman.github.io/jaxsne)
+
+
 A library for doing dimensionality reduction in different metric spaces, or
 using different distributions.
 
