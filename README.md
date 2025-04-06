@@ -4,7 +4,6 @@
 [![pypi](https://img.shields.io/pypi/v/jaxsne)](https://pypi.org/project/jaxsne/)
 [![docs](https://img.shields.io/badge/api-docs-blue)](https://erikbrinkman.github.io/jaxsne)
 
-
 A library for doing dimensionality reduction in different metric spaces, or
 using different distributions.
 
@@ -62,9 +61,9 @@ reduced = jaxsne.sne(data, in_metric=manhattan, out_metric=manhattan)
 ## Development
 
 ```sh
-uv run ruff format
+uv run ruff format --check
 uv run ruff check
-uv run mypy jaxsne
+uv run pyright
 uv run pytest
 ```
 
